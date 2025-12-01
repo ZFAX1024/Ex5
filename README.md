@@ -73,6 +73,7 @@ epochs = 30
 print(model)
 ```
 ![image](/image/1.png)
+
 模型包含 2 个卷积层与 3 个全连接层，结构完整复现 LeNet-5。
 
 ### 3. 模型训练配置
