@@ -72,7 +72,7 @@ optimizer = optim.Adam(model.parameters(), lr=1e-2)
 epochs = 30
 print(model)
 ```
-
+![image](/image/1.png)
 模型包含 2 个卷积层与 3 个全连接层，结构完整复现 LeNet-5。
 
 ### 3. 模型训练配置
@@ -137,7 +137,7 @@ plt.show()
 ## 三、实验结果与分析
 
 ### 1. 训练指标
-
+![image](/image/2.png)
 -   **Epoch 0**：loss=1.4298，acc=44.60%
 -   **Epoch 5**：loss=0.0626，acc=98.14%
 -   **Epoch 10-30 稳定区间**：acc≈98.5%+
@@ -146,7 +146,7 @@ plt.show()
 模型收敛迅速，精度接近 99%，符合 LeNet-5 在 MNIST 数据集上的典型表现。
 
 ### 2. 特征图分析
-
+![image](/image/3.png)
 -   **第一层卷积**：保留边缘信息，图像略模糊但轮廓明显。
 -   **第二层卷积**：分辨率降至 5×5，图像抽象化，体现高级特征。
 
