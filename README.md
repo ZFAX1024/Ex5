@@ -138,7 +138,7 @@ for i in range(n):
 
 plt.show()
 ```
-
+![image](/image/3.png)
 该可视化展示了原始图、Conv1 特征图与 Conv2 特征图。
 
 ## 三、实验结果与分析
